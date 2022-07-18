@@ -84,10 +84,16 @@ function NewProduct() {
                                 <option disabled selected>
                                     -- Select One --
                                 </option>
-                                <option value="technology">technology</option>
-                                <option value="tablets">tablets</option>
-                                <option value="phones">phones</option>
-                                <option value="laptops">laptops</option>
+                                <option value="Milk Chocolate">Milk Chocolate</option>
+                                <option value="Dark Chocolate">Dark Chocolate</option>
+                                <option value="White Chocolate">White Chocolate</option>
+                                <option value=" Fruit & Chocolate"> Fruit & Chocolate</option>
+                                <option value="Chocolate And Nuts">Chocolate And Nuts</option>
+                                <option value="Caramel Chocolate">Caramel Chocolate</option>
+                                <option value=" Lindt Hampers"> Lindt Hampers</option>
+                                <option value="White Chocolate Truffles">White Chocolate Truffles</option>
+                                <option value="Dark Chocolate Truffles">Dark Chocolate Truffles</option>
+                            
                             </Form.Select>
                         </Form.Group>
 
