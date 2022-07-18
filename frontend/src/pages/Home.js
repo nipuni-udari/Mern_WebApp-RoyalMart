@@ -18,7 +18,7 @@ function Home() {
     }, []);
     return (
         <div>
-            <img alt="main" src={require('../images/main.png')}  className="home-banner" />
+            <img alt="main" src={require('../images/home.png')}  className="home-banner" />
             <div className="featured-products-container container mt-4">
                 <h2>Last products</h2>
                 {/* last products here */}
@@ -35,7 +35,7 @@ function Home() {
             </div>
             {/* sale banner */}
             <div className="sale__banner--container mt-4">
-            <img alt="sale" src={require('../images/sale.png')} />
+            <img alt="sale" src={require('../images/saleBanner-2.png')} />
             </div>
             <div className="recent-products-container container mt-4">
                 <h2>Categories</h2>
