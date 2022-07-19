@@ -30,7 +30,7 @@ function Navigation() {
     }
 
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg='dark' variant='dark'>
             <Container>
                 <LinkContainer to="/">
                     <Navbar.Brand>Royal Mart</Navbar.Brand>
