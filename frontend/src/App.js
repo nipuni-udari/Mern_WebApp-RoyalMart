@@ -17,6 +17,7 @@ import EditProductPage from "./pages/EditProductPage";
 import { useEffect } from "react";
 import { io } from "socket.io-client";
 import { addNotification } from "./features/userSlice";
+import Footer from "./components/Footer";
 
 function App() {
     const user = useSelector((state) => state.user);
@@ -68,9 +69,12 @@ function App() {
                     <Route path="/new-product" element={<NewProduct />} />
 
                     <Route path="*" element={<Home />} />
+                    
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </div>
+    
     );
 }
 
